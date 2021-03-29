@@ -34,7 +34,11 @@ def won?(board)
 end
 
 def full?(board)
-  if !won?(board) && full?(board)
-    return true
+  board.all? do |box|
+    if box == "X" || box == "Y"
+      return true
+    end
   end
+else
+  return false
 end
