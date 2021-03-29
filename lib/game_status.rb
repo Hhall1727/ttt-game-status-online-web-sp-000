@@ -29,7 +29,7 @@ def won?(board)
    return win_combination
   end 
  end
- retuen false 
+ return false 
 end
 
 def full?(board)
