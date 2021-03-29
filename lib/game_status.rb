@@ -57,5 +57,6 @@ end
 
 def winner(board)
   if won?(board)
-    return baord[won?(board)]
+    return baord[won?(board)[0]]
+  end
 end
