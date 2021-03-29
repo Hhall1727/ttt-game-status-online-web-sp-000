@@ -35,10 +35,6 @@ end
 
 def full?(board)
   board.all? do |box|
-    if box == "X" || box == "Y"
-      return true
-    else
-      return false
-    end
+     box == "X" || box == "Y"
   end
 end
